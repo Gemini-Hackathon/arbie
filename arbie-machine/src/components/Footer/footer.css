@@ -1,0 +1,21 @@
+.footer-container {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  border-top: 1px solid white;
+}
+.footer-container > footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text-red {
+  color: red;
+}

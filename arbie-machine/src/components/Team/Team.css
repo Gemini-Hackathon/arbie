@@ -1,0 +1,32 @@
+.author {
+    height: 9em;
+    color:black;
+    border-radius: 0.75rem;
+    border: 1px solid black;
+    margin-bottom: 0.5rem;
+}
+.bio {
+    width: 30%;
+    margin: auto;
+    text-align: justify;
+    color: black;
+    background: #4255a5;
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid white;
+    margin-top: 0.5rem;
+}
+
+.team_wrapper {
+    display: flex;
+    background: #bbc3ec;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.team_wrapper b , .team_wrapper  h2{
+    color: black;
+}
