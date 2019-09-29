@@ -80,7 +80,7 @@
  #main{
      height: 100%;
  }
- #header-container{ border-bottom: 20px solid #232c36; display: flex; background: green;}
+ #header-container{ border-bottom: 20px solid #232c36;  display: flex; background: green;}
  #footer-container{ border-top:    20px solid #232c36;}
  #main aside      { border-top:    20px solid #232c36;}
  
@@ -119,6 +119,7 @@
      background: purple;
      display: flex;
      flex-direction: row;
+     font-size: 0.5rem;
      text-decoration-line: none;
  }
  

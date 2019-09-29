@@ -61,7 +61,16 @@ class DonutChart extends React.Component{
         }
 
         return (
-            <div style={{width: '100%'}}>
+            <div style={
+                {
+                    width: '100%', 
+                    background: '#222a5a', 
+                    border: '1px solid black',
+                    borderRadius: '0.5rem',
+                    overflow: 'hidden',
+                    maxWidth: 300
+                }
+            }>
                 <svg width={this.state.size} height={this.state.size} className ="donutchart">
                 <circle r={radius} cx={halfSize} cy={halfSize} transform={rotateVal} style={trackStyle} className="donutchart--track"/>
                     <circle r={radius} cx={halfSize} cy={halfSize} transform={rotateVal} style={indicatorStyle} className={arbitragePercent >= arb_percent ? "donutchart--indicator--green" : "donutchart--indicator--red"}/>

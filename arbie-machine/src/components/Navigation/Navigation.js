@@ -12,7 +12,7 @@ export default function Navigation() {
 		<BrowserRouter>
 			<div className="header-container">
 				
-				<h1 className="title"><img className="logo" alt="logo" src={logo} />Arbie - Trade Up</h1>
+				<h1 className="title"><img className="logo" alt="logo" src={logo} />Arbie</h1>
 				<div style={{flex:1}}/>
 				<div className="link_wrapper">
 					<Link className="link" to="/home">About Arbie</Link>

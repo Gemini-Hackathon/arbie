@@ -125,7 +125,7 @@ class Indicators extends React.Component {
                 const display = [];
                 currencies.forEach((currency) => { //Loop through currencies and create a display
                     display.push(
-                        <div className="icons"><label>{currency} </label><br/><br/>
+                        <div className="icons"><label>{currency} </label>
                             <DonutChart key={currency} parent={this} type={currency}/>
                         </div>);
                 });
@@ -139,7 +139,6 @@ class Indicators extends React.Component {
     render() {
         return (
             <div className="indicator_wrapper">
-                <BrowserRouter><Link  to="/historicalData" className="link -- history_data">See Historical Data</Link></BrowserRouter>
                 <div className="container">     
                 {this.state.display} {/*Displays Only When Data Is Present*/}
                 </div>

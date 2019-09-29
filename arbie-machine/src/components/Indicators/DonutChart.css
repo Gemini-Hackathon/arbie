@@ -1,5 +1,5 @@
 .info_container {
-    background: black;
+    background: #222a5a;
     display: flex;
     flex: 1;
     width: 100%;
@@ -7,12 +7,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem; 
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
 }
 .info_container label {
     background-color: red;
+    color: white;
     padding: 0.5rem 0;
     display: flex;
     flex: 1;
@@ -31,7 +29,8 @@
 }
 
 .info > .low , .info > .high {
-    background: #140085;
+    background: white;
+    color: black;
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
     box-shadow: inset 1px 1px 1px 1px black
@@ -67,6 +66,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    padding: 1rem 0;
 }
 
 .donutchart--text {

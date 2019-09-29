@@ -6,21 +6,25 @@
     margin-bottom: 0.5rem;
 }
 .bio {
-    width: 30%;
+    width: calc(100% - 2rem);
     margin: auto;
-    text-align: justify;
+    display: flex;
+    text-align: center;
     color: black;
     background: #4255a5;
     padding: 1rem;
     color: white;
-    border-radius: 1rem;
-    border: 1px solid white;
     margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.bio > p {
+    max-width: 700px;
 }
 
 .team_wrapper {
     display: flex;
-    background: #bbc3ec;
+    background: whitesmoke;
     flex-direction: column;
     justify-content: center;
     align-items: center;
