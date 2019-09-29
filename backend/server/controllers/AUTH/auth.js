@@ -1,6 +1,6 @@
 const User = require('../../../models/userModel');
 const Arb = require('../../../models/arbitrageModel');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt-nodejs');
 const jwt = require('jwt-simple');
 const secret = process.env.KEY_ACCESS;
 
